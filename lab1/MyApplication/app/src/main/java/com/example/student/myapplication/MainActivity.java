@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(!name_b && !password_b && !email_b && phone_b){
             if(email_len){
-                Toast toast = Toast.makeText(getApplicationContext(),"correct details entered",
+                Toast toast = Toast.makeText(getApplicationContext(),"Hell0..."+name.getText()+"...correct details entered",
                         Toast.LENGTH_SHORT);
                 toast.show();
             }
