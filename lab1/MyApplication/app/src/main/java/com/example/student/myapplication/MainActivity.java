@@ -45,15 +45,19 @@ public class MainActivity extends AppCompatActivity {
         EditText email = (EditText)findViewById(R.id.email);
         EditText password = (EditText)findViewById(R.id.password);
 
-        boolean email_b=(!TextUtils.isEmpty(email.toString())&& Patterns.EMAIL_ADDRESS.matcher(email.toString()).matches());
-        boolean name_b=(!TextUtils.isEmpty(name.toString()));
-        boolean password_b=(!TextUtils.isEmpty(password.toString()));
+        boolean email_b=(TextUtils.isEmpty(email.getText()));
+        boolean email_len=Patterns.EMAIL_ADDRESS.matcher(email.getText()).matches();
+        boolean name_b=(TextUtils.isEmpty(name.getText()));
+        boolean password_b=(TextUtils.isEmpty(password.getText()));
         boolean phone_b= (phone.getText().length()==10);
 
-        if(name_b && password_b && !email_b){
-            Toast toast = Toast.makeText(getApplicationContext(),"Correct details entered",
-                    Toast.LENGTH_SHORT);
-            toast.show();
+        if(!name_b && !password_b && !email_b && phone_b){
+            if(email_len){
+                Toast toast = Toast.makeText(getApplicationContext(),"correct details entered",
+                        Toast.LENGTH_SHORT);
+                toast.show();
+            }
+
         }
         else{
             Toast toast = Toast.makeText(getApplicationContext(),"wrong details",
