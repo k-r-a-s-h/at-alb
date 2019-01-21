@@ -32,6 +32,7 @@
             android:ems="10"
             android:hint="Name"
             android:inputType="textPersonName"
+            android:text="krishna"
             android:textAlignment="center" />
 
         <EditText
@@ -42,6 +43,7 @@
             android:ems="10"
             android:hint="email"
             android:inputType="textEmailAddress"
+            android:text="krishna05564@gmail.com"
             android:textAlignment="center" />
 
         <EditText
@@ -52,6 +54,7 @@
             android:ems="10"
             android:hint="Mobile number"
             android:inputType="number"
+            android:text="9532"
             android:textAlignment="center" />
 
         <EditText
