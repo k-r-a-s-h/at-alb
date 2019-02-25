@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     public void generate(View view) {
         NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(this, "default")
                 .setSmallIcon(R.drawable.icon)
-                .setContentTitle("Teastnskgven ")
+                .setContentTitle("Teastnskgven")
                 .setContentText("bdsjgbakjedsbrgjnberlknhkqe")
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT);
         mNotificationManager.notify(0, mBuilder.build());
