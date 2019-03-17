@@ -12,7 +12,7 @@ public class AlertReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent){
        NotificaionHelper notificaionHelper = new NotificaionHelper(context);
-       NotificationCompat.Builder nb = notificaionHelper.getChannel1Notification("titlr","message");
+       NotificationCompat.Builder nb = notificaionHelper.getChannel1Notification("title","message");
        notificaionHelper.getManager().notify(1,nb.build());
         try {
 
