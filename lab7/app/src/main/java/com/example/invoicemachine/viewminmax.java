@@ -27,6 +27,7 @@ public class viewminmax extends AppCompatActivity {
         }
         buffer.append("=====Max=====\n");
         Cursor max=mydb.getMax();
+//                    Toast.makeText(getApplicationContext(),"yoolo"+max.getCount(),Toast.LENGTH_LONG).show();
         if(max.getCount()>0) {
 //            max.moveToFirst();
             while (max.moveToNext()) {

@@ -56,11 +56,15 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     }
     public Cursor getMax(){
         SQLiteDatabase db = this.getWritableDatabase();
-        Cursor c = db.rawQuery("SELECT * FROM "+TBL_NAME+" WHERE PRICE =(Select max(price) from "+TBL_NAME+" Order by price)",null);
+        Cursor c = db.rawQuery("SELECT * FROM "+TBL_NAME+" order by price desc",null);
 
         c.moveToFirst();
+        while (c.getString(3).length()<=0){
+            c.moveToNext();
+        }
+
         int max=c.getInt(3);
-        Toast.makeText(loda,"yoolo",Toast.LENGTH_LONG).show();
+        Toast.makeText(loda,"yoolo"+c.getCount()+" "+c.getString(1)+c.getString(2)+c.getString(3),Toast.LENGTH_LONG).show();
         Cursor data = db.query(TBL_NAME,null," price =? ",new String[]{""+max},null,null,null);
 
 

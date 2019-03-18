@@ -1,64 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a0f1388d-2f1f-44a0-a302-16897ff6d5ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../eval/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/src/androidTest/java/com/example/eval3/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/src/main/java/com/example/eval3/DisplayMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/src/main/java/com/example/eval3/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/src/main/res/layout/activity_display_message.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/app/src/test/java/com/example/eval3/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../eval/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../helper_code/alm/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../helper_code/alm/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../helper_code/android_practice/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../helper_code/android_practice/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4/QuizApp/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../helper_code/alm/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../helper_code/alm/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../helper_code/alm/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../helper_code/alm/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../helper_code/alm/app/src/main/java/com/example/krash/alarmclock/AlertReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../helper_code/alm/app/src/main/java/com/example/krash/alarmclock/AlertReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../helper_code/android_practice/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../helper_code/android_practice/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../helper_code/android_practice/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../helper_code/android_practice/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../helper_code/android_practice/app/src/main/java/com/example/krash/intentbasics/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../helper_code/android_practice/app/src/main/java/com/example/krash/intentbasics/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/LAB4_1/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/LAB4_1/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/LAB4_1/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/LAB4_1/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5_1/app/src/main/java/com/example/notification/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5_1/app/src/main/java/com/example/notification/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/invoicemachine/DatabaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/invoicemachine/DatabaseHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/invoicemachine/viewminmax.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/invoicemachine/viewminmax.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,37 +33,76 @@
     <session id="1801185521">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="db" value="1" />
+          <entry key="java" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="3" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="171" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="171" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/invoicemachine/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/invoicemachine/DatabaseHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/invoicemachine/viewminmax.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/invoicemachine/viewminmax.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/invoicemachine/DatabaseHelper.java" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="960" />
@@ -123,6 +118,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -145,7 +141,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
@@ -189,7 +184,7 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
       <option name="PREFERRED_AVD" value="" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
       <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
@@ -252,10 +247,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.32977587" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16328709" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -263,16 +257,16 @@
       <window_info id="Designer" order="6" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Run" order="0" weight="0.32934782" />
-      <window_info anchor="bottom" id="Logcat" order="1" />
+      <window_info active="true" anchor="bottom" id="Logcat" order="1" visible="true" weight="0.32934782" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32934782" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32934782" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.32826087" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32826087" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.32977587" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -285,6 +279,23 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/invoicemachine/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AndroidStudio/DeviceExplorer/oneplus-oneplus_a6000-888c0520/data/data/com.example.invoicemachine/databases/invoice.db">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/invoicemachine/viewminmax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/invoicemachine/DatabaseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
