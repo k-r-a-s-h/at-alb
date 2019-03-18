@@ -56,27 +56,26 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     }
     public Cursor getMax(){
         SQLiteDatabase db = this.getWritableDatabase();
-        Cursor res = db.rawQuery("SELECT * FROM "+TBL_NAME+" where price!=null ORDER BY PRICE DESC ",null);
-        res.moveToNext();
-//        res.moveToNext();
-        String max="40";
+        Cursor c = db.rawQuery("SELECT * FROM "+TBL_NAME+" WHERE PRICE =(Select max(price) from "+TBL_NAME+" Order by price)",null);
 
-//        String oto="lol";
-        Toast.makeText(loda ,"Data Deleted" + res.getString(3),Toast.LENGTH_LONG).show();
+        c.moveToFirst();
+        int max=c.getInt(3);
+        Toast.makeText(loda,"yoolo",Toast.LENGTH_LONG).show();
+        Cursor data = db.query(TBL_NAME,null," price =? ",new String[]{""+max},null,null,null);
 
-
-
-        Cursor data=db.rawQuery("SELECT * FROM "+TBL_NAME+" WHERE PRICE= ? and PRICE!=null ",new String[] {max} );
 
         return data;
     }
     public Cursor getMin(){
         SQLiteDatabase db = this.getWritableDatabase();
-        Cursor res = db.rawQuery("SELECT MIN(PRICE) FROM "+TBL_NAME,null);
-        res.moveToFirst();
-//        Log.d(TAG, res.getString(0));
-        String min=(res.getString(0));
-        Cursor data=db.rawQuery("SELECT * FROM "+TBL_NAME+" WHERE PRICE= ? AND PRICE !=null ",new String[] {min} );
+        Cursor c = db.rawQuery("SELECT * FROM "+TBL_NAME+" WHERE PRICE =(Select min(price) from "+TBL_NAME+")",null);
+
+
+        c.moveToFirst();
+        String min=c.getString(3);
+        Cursor data = db.query(TBL_NAME,null," price =? ",new String[]{""+min},null,null,null);
+//        data.moveToFirst();
+//        Toast.makeText(loda,"yoolo"+data.getString(2),Toast.LENGTH_LONG).show();
 
         return data;
     }
